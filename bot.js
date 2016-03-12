@@ -2,7 +2,7 @@ var login = require("facebook-chat-api");
 var fs = require('fs');
 const exec = require('child_process').exec;
 // Create simple echo bot 
-login({email: "titrateacids@gmail.com", password: "Boombox@asd123"}, function callback (err, api) {
+login({email: "Enter email adress", password: "Enter Password"}, function callback (err, api) {
     if(err) return console.error(err);
 	var calce=false;
 	var program=false;
