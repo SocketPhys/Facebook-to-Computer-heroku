@@ -13,7 +13,7 @@ exit: exits calculator mode
 program: starts program mode. 
 
 Program mode allows you to type in any bash program. Remember to use ; after every statement. This is mandatory. If you wish to see output you cannot just use echo output .  You must redirect all output to the "dude" file. An example being 
-echo "hello world" >dude;
+echo "hello world" >dankMeme;
 
 After you are done with your program simply type exit program . This will display the output 
 
