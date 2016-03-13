@@ -5,6 +5,12 @@ In bot.js fill in the account you want to use for your bot. Then go to your term
 
 Commands:
 
+
+/wolf: starts wolfram-alpha mode
+Wolfram-alfa mode basically lets you type anything, and if wolfram alpha can understand it you will be messaged with the title and values of its result. Queries can range from "2+2" to "Size of the Sun" to "Integrate xsin(x^2)". Yes it allows calculus.
+
+/exit: exits wolfram-alpha mode
+
 calc: starts calculator mode.
 Calculator mode is where you can type any javascript expression and return the bot will message you after it runs it. For example 2+2 would message you 4. However console.log("hello") would not message you anything but it would print to your console. "hello" + "goodbye" would message you hellogoodbye. In deciding what works just imagine eval(message) in javascript and if it returns a value then you will be messaged that value.
 
