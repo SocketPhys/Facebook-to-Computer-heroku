@@ -14,14 +14,13 @@ Wolfram-alfa mode basically lets you type anything, and if wolfram alpha can und
 calc: starts calculator mode.
 Calculator mode is where you can type any javascript expression and return the bot will message you after it runs it. For example 2+2 would message you 4. However console.log("hello") would not message you anything but it would print to your console. "hello" + "goodbye" would message you hellogoodbye. In deciding what works just imagine eval(message) in javascript and if it returns a value then you will be messaged that value.
 
-exit: exits calculator mode
+/exit: exits calculator mode
 
-program: starts program mode. 
+/program: starts program mode. 
 
-Program mode allows you to type in any bash program. Remember to use ; after every statement. This is mandatory. If you wish to see output you cannot just use echo output .  You must redirect all output to the "dankMeme" file. An example being 
-echo "hello world" >dankMeme;
+Program mode allows you to type in any bash program. Remember to use ; after every statement. This is mandatory. If you wish to see output you cannot just use echo output .  You must redirect all output to the "dankMeme" file. An example being echo "hello world" >dankMeme; After you are done with your program simply type
 
-After you are done with your program simply type exit program . This will display the output 
+/exit program:This will display the output and end program mode.
 
-restart program: Before you start a new program you must type restart program. 
+/restart program: Before you start a new program you must type restart program. This will not enter program mode
 
