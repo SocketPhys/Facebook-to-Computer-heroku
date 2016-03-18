@@ -5,6 +5,8 @@ To set this up: clone this repository and install the necessary npm modules. Las
 
 In bot.js fill in the account you want to use for your bot. Then go to your terminal and after setting up all the files type node bot.js. Then if you chat the account you used for the bot you can communicate with your own computer.
 
+Security Warnings: This will allow the user to run javascript and bash files on your computer thus it should only be used to test things and not as a product.
+
 Commands:
 
 
